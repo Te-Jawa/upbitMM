@@ -1,0 +1,12 @@
+* market making
+** algorithm
+1. scan every spreads of markets
+how long does it takes?
+2. pick market spread > 0.2%
+3. sort markets by spread
+4. scan market volume
+** function get_market_data
+get orderbook -> calculate spread
+get volume, liquidity
+get ticks
+get minimum order tick -> don't need to update
